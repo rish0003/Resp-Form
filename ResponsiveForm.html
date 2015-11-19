@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8">   
+      <title>Responsive Form</title>
+    <link type="text/css" rel="stylesheet" href="ResponsiveForm.css">
+      
+</head>
+<body>
+	 <header>
+        <h1>This is a Form</h1>
+        <p>Fill it out.</p>
+	</header>
+     
+	<form action="process.aspx" method="post">
+	    <div class="box">
+		    <label for="UserName">UserName: </label>
+            <input type="text" id="1" name="UserName" class="md" placeholder="username" required/>
+	    </div>
+        <div class="box">
+		    <label for="LastName">Email: </label>
+            <input type="text" id="2" name="LastName" class="md" placeholder="e-mail" required/>
+	    </div>
+        <div class="box">
+		    <label for="email">Website: </label>
+            <input type="text" id="3" name="email" class="md" placeholder="website-url" required/>
+	    </div>
+        <div class="box">
+    	    <label for="password">Password: </label>
+            <input type="password"id="4" name="password" class="pw" placeholder="password" required/>
+        </div>
+	    <div>
+  		    <input id="saveForm" name="saveForm" type="submit" value="Submit" class="button" >
+        </div>
+	</form>
+</body>
+</html>
