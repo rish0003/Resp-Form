@@ -10,6 +10,12 @@ input[type="text"]{
 input[type="password"]{
     padding-left: 10px;
 }
+input[type="email"]{
+    padding-left: 10px;
+}
+input[type="url"]{
+    padding-left: 10px;
+}
 input[type="submit"]{
         width: 80px;
 }
@@ -45,7 +51,7 @@ header{
 @media only screen and (max-width: 500px){
 header{
 	background-color:#CA7303;
-	width:90%;
+	width:100%;
 }
 h1,p{
 	padding-left:30px;
